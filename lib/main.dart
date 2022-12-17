@@ -1,4 +1,6 @@
+import 'package:copa_app/screens/FormJogadores/form_jogadores_screen.dart';
 import 'package:copa_app/screens/FormSelecoes/form_selecoes_screen.dart';
+import 'package:copa_app/screens/JogadoresScreen/jogadores_screen.dart';
 import 'package:copa_app/screens/LoginScreen/login_screen.dart';
 import 'package:copa_app/screens/SelecoesScreen/selecoes_screen.dart';
 import 'package:flutter/material.dart';
@@ -22,7 +24,9 @@ class MyApp extends StatelessWidget {
       routes: {
         '/login': (context) => const LoginScreen(),
         '/selecoes': (context) => const SelecoesScreen(),
-        '/form_selecoes': (context) => const FormSelecoes(),
+        '/form_selecoes': (context) => const FormSelecoesScreen(),
+        '/jogadores': (context) => const JogadoresScreen(),
+        '/form_jogadores': (context) => const FormJogadoreScreen(),
       },
     );
   }

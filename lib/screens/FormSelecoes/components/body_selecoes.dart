@@ -15,7 +15,7 @@ class BodyFormSelecoes extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: const [
             Text(
-              'Resgistration \nSoccer Selections: ',
+              'Registration \nSoccer Selections: ',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 23,
@@ -23,7 +23,7 @@ class BodyFormSelecoes extends StatelessWidget {
               ),
             ),
             SizedBox(
-              height: 5,
+              height: 10,
             ),
             FormSelecoesWorldCup(),
           ],

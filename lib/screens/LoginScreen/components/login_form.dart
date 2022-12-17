@@ -67,6 +67,7 @@ class _FormLoginState extends State<FormLogin> {
                   );
                 }
               },
+              label: 'Enter',
             )
           ],
         ),

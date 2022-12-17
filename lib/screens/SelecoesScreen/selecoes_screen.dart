@@ -9,6 +9,16 @@ class SelecoesScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
+        leading: IconButton(
+          onPressed: () {
+            Navigator.pushNamed(context, '/login');
+          },
+          icon: const Icon(
+            Icons.arrow_back_ios_new_outlined,
+            size: 20,
+          ),
+        ),
+        automaticallyImplyLeading: false,
         centerTitle: true,
         title: const Text('List the Seleções'),
         actions: [
@@ -17,7 +27,7 @@ class SelecoesScreen extends StatelessWidget {
               Navigator.pushNamed(context, '/form_selecoes');
             },
             icon: const Icon(
-              Icons.arrow_forward_outlined,
+              Icons.add,
             ),
           ),
         ],

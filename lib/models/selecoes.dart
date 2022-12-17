@@ -4,6 +4,7 @@ class Selecoes {
   String continente;
   String cores;
   int qtdTitulos;
+  String urlImage;
 
   Selecoes({
     this.id,
@@ -11,6 +12,7 @@ class Selecoes {
     required this.continente,
     required this.cores,
     required this.qtdTitulos,
+    required this.urlImage,
   });
 
   factory Selecoes.fromJson(Map<String, dynamic> json) => Selecoes(
@@ -19,6 +21,7 @@ class Selecoes {
         continente: json['continente'],
         cores: json['cores'],
         qtdTitulos: json['qtdTitulos'],
+        urlImage: json['urlImage'],
       );
 
   Map<String, dynamic> toJson() => {
@@ -27,5 +30,6 @@ class Selecoes {
         'continente': continente,
         'cores': cores,
         'qtdTitulos': qtdTitulos,
+        'urlImage': urlImage,
       };
 }

@@ -1,10 +1,23 @@
 {
-    "selecoes": [
-        {
-            "name": "Brasil",
-            "continente": "América do Sul",
-            "cores": "Verde, amarelo, azul",
-            "qtd_Titulos": 5
-        }
-    ]
+  "selecoes": [
+    {
+      "id": 1,
+      "name": "Brasil",
+      "continente": "América do Sul",
+      "cores": "Verde, amarelo, azul",
+      "qtdTitulos": 5,
+      "urlImage": "https://imgs.search.brave.com/nqMmk1tkrk2LxiFZD773bYP55kzLdonQpF9hKrxwDoc/rs:fit:438:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5p/Q1QxclRxTXFyZ0FE/YXRRcFhrTzN3SGFJ/QSZwaWQ9QXBp"
+    }
+  ],
+  "jogadores": [
+    {
+      "id": 1,
+      "selecaoid": 1,
+      "camisa": 10,
+      "name": "Neymar",
+      "altura": 1.79,
+      "idade": 30,
+      "url": "https://imgs.search.brave.com/0kJtzMLxI-TZfx4meRUXFCiYGPUdff5C2MCA81nEh1U/rs:fit:448:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5m/NHJsS2VQTGttSDk2/am1jUlgzTmNBQUFB/QSZwaWQ9QXBp"
+    }
+  ]
 }
